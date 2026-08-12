@@ -65,7 +65,7 @@ import ajora_liquid_ripple_case from "./ajora_liquid_ripple_case.jpg";
 import ajora_wavy_melt_case from "./ajora_wavy_melt_case.jpg";
 import ajora_hello_kitty_case from "./ajora_hello_kitty_case.jpg";
 
-import logo from "./logo.svg";
+import logo from "./Logo.svg";
 import hero_img from "./main.jpg";
 import cart_icon from "./cart_icon.png";
 import bin_icon from "./bin_icon.png";
