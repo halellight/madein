@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #F7F4EE;
+    color: #111111;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Space Grotesk', sans-serif;
+    letter-spacing: -0.02em;
+  }
+
+  .font-display {
+    font-family: 'Syne', sans-serif;
+  }
+}
+
+/* Custom High Contrast Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F7F4EE;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #063D2C;
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0D573F;
+}
+
+/* Active navigation styles */
+a.active hr {
+  display: block;
+}
+
+/* Streetwear editorial badges & borders */
+.editorial-border {
+  border: 1px solid #111111;
+}
+
+.editorial-card {
+  background-color: #FFFFFF;
+  border: 1px solid #E2DDD3;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.editorial-card:hover {
+  border-color: #063D2C;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px -10px rgba(6, 61, 44, 0.15);
+}
+
+
